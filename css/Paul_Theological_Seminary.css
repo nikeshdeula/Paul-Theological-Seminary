@@ -1,0 +1,466 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+/* <!-- ..................Top Bar..................... --> */
+
+/* ...contact-section...address and contact section.... */
+
+
+.contact-section {
+
+    background: #0066bb;
+    color: rgb(255, 255, 255);
+    padding: 12px;
+    font-size: 11px;
+
+
+
+}
+
+
+.contact-section .address {
+    margin-left: 50px;
+
+}
+
+
+
+
+.contact-section .email {
+    margin-left: 50px;
+
+}
+
+
+
+.contact-section .contact {
+
+    float: right;
+    font-size: 13px;
+
+
+
+}
+
+
+@media (max-width: 700px) {
+    .contact-section {
+        display: none;
+
+    }
+
+}
+
+/* <!-- ......................Header...................... --> */
+
+/* ...................navbar.section............................ */
+
+.navbar-brand img {
+    width: 90px;
+    margin-top: -6px;
+    float: left;
+    margin-right: 15px;
+
+}
+
+.navbar-brand h3 {
+    font-size: 16px;
+    color: #0066bb;
+    margin-top: 10px;
+
+}
+
+
+.navbar-nav .nav-link {
+    color: #0066bb;
+    margin: 9px;
+}
+
+
+
+.navbar {
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+
+.dropdown-menu {
+    box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 0px;
+   
+}
+
+.navbar ul li 
+
+.dropdown:hover a {
+    display: block;
+}
+
+.dropdown-menu:hover {
+    flex-direction: column;
+    display: block;
+}
+
+
+
+.dropdown-menu a:hover {
+    background: #0066bb;
+    color: white;
+   
+    
+}
+
+
+
+
+
+.navbar .nav-item {
+
+    font-size: 18px;
+    font-weight: 450;
+}
+
+.navbar .nav-link {
+    font-weight: 500;
+}
+
+.navbar .nav-link:hover {
+    color: #0e1a4b;
+
+}
+
+.navbar-toggler {
+    float: right;
+}
+
+
+@media (max-width:768px) {
+    .navbar .nav-item {
+        text-align: center;
+    }
+
+
+
+}
+
+
+/* .................................about us........................ */
+
+.about_us h3 {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.about_us p {
+    text-align: center;
+}
+
+
+
+
+/* ...............................carousel......................... */
+
+.course {
+    padding-top: 2rem;
+}
+
+.course h3 {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.course-2 {
+    margin-top: 3rem;
+}
+
+.btn {
+    background-color: #0066bb;
+    color: white;
+}
+
+
+
+/* ..................................Blogs............................ */
+
+.blogs {
+    padding-top: 4rem;
+}
+
+.blogs h3 {
+    text-align: center;
+    margin-bottom: 45px;
+
+}
+
+
+
+/* ................................jumbotron........................... */
+
+.jumbotron {
+    background: #141414;
+    margin-top: 4rem;
+    height: 25rem;
+    overflow: hidden;
+}
+
+
+.get_in_touch h3 {
+    color: white;
+}
+
+.jumbotron i {
+    margin: 20px;
+    display: block;
+    color: white;
+
+}
+
+.get_in_touch {
+    display: flex;
+}
+
+.get_in_touch .contacts-2 {
+    margin-left: 5rem;
+    margin-top: 4rem;
+
+}
+
+
+
+.get_in_touch .map iframe {
+    margin-top: -18.5rem;
+    width: 50%;
+    float: right;
+
+}
+
+
+@media (max-width:776px) {
+
+    .get_in_touch .contacts-2 {
+        font-size: 13px;
+        padding-bottom: -1rem;
+        text-align: center;
+        margin: auto;
+
+
+    }
+
+    .jumbotron {
+        height: 30rem;
+        display: block;
+
+
+    }
+
+    .get_in_touch .map iframe {
+        width: 100%;
+        float: none;
+        margin-top: 0px;
+        height: 15rem;
+        margin: auto;
+
+
+    }
+
+
+}
+
+
+
+/* ................................footer............................... */
+
+footer {
+    background-color: #f9f9f9;
+    padding-top: 30px;
+}
+
+.footer_content {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    
+
+}
+
+.footer_1 img {
+    width: 150px;
+
+}
+
+.footer_1 .fa {
+    margin: -5px;
+    margin-left: 30px;
+    padding-top: 30px;
+
+}
+
+
+.footer_2 ul li {
+    margin: 10px;
+    padding-top: 0px;
+
+}
+
+.footer_2 ul li a {
+    list-style: none;
+    color: black;
+}
+
+
+.footer_2 ul li a:hover {
+    color: #000000;
+}
+
+
+.footer_3 iframe {
+    height: 250px;
+    width: 350px;
+    margin-top: -20px;
+    text-align: center;
+}
+
+
+/* ...........................footer credit.......................... */
+
+.footer_credit {
+    padding: 5px;
+    text-align: center;
+    background:#e4e4e4;
+    justify-content: center;
+    color: #34495e;
+    padding-top: 10px;
+}
+
+
+
+/* .......................media query............................ */
+
+@media (max-width:768px) {
+    .footer_content {
+        flex-direction: column;
+        display: inline-block;
+
+
+    }
+
+    .footer_1 {
+        margin-bottom: 3rem;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.10);
+        width: 100%;
+        padding-bottom: 10px;
+
+    }
+
+    .footer_2 {
+        margin-bottom: 3rem;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.10);
+        width: 100%;
+        padding-top: -30px;
+    }
+
+
+
+}
+
+
+
+
+
+/* ..............................News..Page......................... */
+
+.news_tophic {
+    color: #0066bb;
+}
+
+.news_tophic {
+    text-align: center;
+    padding-top: 2rem;
+
+
+}
+
+
+/* ..............................news content........................ */
+
+.news_content h4 {
+    text-align: left;
+    padding-top: 2rem;
+}
+
+.news_content p {
+    text-align: left;
+}
+
+
+
+
+
+
+
+/* ............................About us page....................... */
+
+
+.about_us_tophic {
+    color: #0066bb;
+}
+
+.about_us_tophic {
+    text-align: center;
+    padding-top: 2rem;
+
+}
+
+
+/* .........................about us content....................... */
+
+.about_us_content h4 {
+    text-align: left;
+    padding-top: 2rem;
+}
+
+.about_us_content p {
+    text-align: left;
+}
+
+
+
+
+
+/* .......................Contact Us Page........................... */
+
+.contact_flex {}
+
+.contact_flex_content {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+
+}
+
+.contact_flex_1 img {
+    width: 100px;
+
+}
+
+.contact_flex_1 h5 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+
+
+.Contact_submit {
+    background-color: #ebebeb;
+    height: 500px;
+    padding-bottom: 3rem;
+}
