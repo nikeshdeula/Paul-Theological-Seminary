@@ -61,6 +61,8 @@
 
 /* ...................navbar.section............................ */
 
+
+
 .navbar-brand img {
     width: 90px;
     margin-top: -6px;
@@ -80,6 +82,15 @@
 .navbar-nav .nav-link {
     color: #0066bb;
     margin: 9px;
+
+}
+
+.navbar-nav .dropdown-menu {
+    margin-top: -5px;
+}
+
+.navbar-nav .dropdown:hover .dropdown-menu {
+    display: block;
 }
 
 
@@ -95,29 +106,6 @@
     border-radius: 0px;
    
 }
-
-.navbar ul li 
-
-.dropdown:hover a {
-    display: block;
-}
-
-.dropdown-menu:hover {
-    flex-direction: column;
-    display: block;
-}
-
-
-
-.dropdown-menu a:hover {
-    background: #0066bb;
-    color: white;
-   
-    
-}
-
-
-
 
 
 .navbar .nav-item {
@@ -145,6 +133,7 @@
         text-align: center;
     }
 
+  
 
 
 }
@@ -436,31 +425,158 @@ footer {
 
 /* .......................Contact Us Page........................... */
 
-.contact_flex {}
 
 .contact_flex_content {
     padding-top: 2rem;
     display: flex;
     justify-content: space-between;
     padding-bottom: 2rem;
+    text-align: center;
+    display: flex;
 
 }
 
 .contact_flex_1 img {
-    width: 100px;
-
-}
-
-.contact_flex_1 h5 {
+    width: 90px;
+    margin-bottom: 12px;
     margin-top: 10px;
-    text-align: center;
+    
+
 }
 
+.contact_flex_2 img {
+    width: 90px;
+    
+}
 
+.contact_flex_2 img {
+    width: 90px;
+  
+
+}
+
+.contact_flex_3 img {
+    width: 120px;
+    margin-top: 15px;
+   
+
+}
 
 
 .Contact_submit {
-    background-color: #ebebeb;
-    height: 500px;
+    background-color: #f5f5f5;
+    padding-top: 2rem;
     padding-bottom: 3rem;
+
 }
+
+.Contact_submit h4 {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+
+.submit_content_1 {
+
+    
+    display: flex;
+}
+
+.submit_content_1 input {
+    margin: 5px;
+    padding: 23px;
+    margin-bottom: 1rem;
+    background: #f7f7f7;
+    border: none;
+}
+
+
+
+.message textarea {
+    border: none;
+    background: #f7f7f7 ;
+}
+
+.submit_content .btn {
+    margin-top: 30px;
+    padding: 15px;
+    background: #0066bb;
+
+}
+
+
+.submit_content .btn:hover {
+    color: white;
+    background: #02569b;
+}
+
+
+
+
+.submit_content {
+
+    background: white;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.02);
+   
+}
+
+
+/* ......contact us media query............ */
+
+
+@media (max-width:768px) {
+
+    .contact_flex_content {
+        flex-direction: column;
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+
+
+    }
+
+    .contact_flex_1 {
+        padding-bottom: 1rem;
+    }
+
+    .contact_flex_2 {
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+        border-top: 2px solid rgba(0, 0, 0, 0.1);
+        border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .contact_flex_3 {
+        padding-top: 1rem;
+    }
+
+    .submit_content_1 {
+        flex-direction: column;
+        display: inline-block;
+        width: 100%;
+       
+        
+    }
+
+    .submit_content_1 input {
+        margin: 0px;
+
+    }
+    
+    
+}
+
+
+/* ..............................map.................. */
+
+
+.map_content iframe {
+    width: 100%;
+}
+
+
+
+
