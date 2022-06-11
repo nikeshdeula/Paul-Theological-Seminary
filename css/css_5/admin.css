@@ -69,3 +69,180 @@ button {
     }
     
 }
+
+
+
+
+
+/* ..................admin pannel (admin)................... */
+
+
+
+
+
+
+:root {
+    --main-text-color: #0066bb;
+  }
+  
+  .primary-text {
+    color: var(--main-text-color);
+  }
+
+  .sidebar-heading img {
+    width: 58px;
+    float: left;
+    margin-top: -5px;
+  }
+
+  .sidebar-heading h6 {
+    font-size: 14px;
+    margin-left: 70px;
+  }
+  
+  .second-text {
+    color: #0066bb;
+  }
+  
+  .secondary-bg {
+    background-color: #0066bb;
+  }
+  
+  .rounded-full {
+    border-radius: 100%;
+  }
+  
+  #wrapper {
+    overflow-x: hidden;
+    background-color: #f1f2f6;
+
+    
+  }
+
+  #sidebar-wrapper {
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.06);
+    background-color: white;
+    
+  }
+
+  #sidebar-wrapper a{
+    color: #0066bb;
+    transition: 0.3s;
+    
+  
+  }
+
+  #sidebar-wrapper .logout{
+    color: #c23616;
+    border: 2px solid rgba(0, 0, 0, 0.04);
+    transition: 0.3s;
+    
+  }
+
+  #sidebar-wrapper .logout:hover{
+    color: #161616;
+
+  }
+
+
+  #sidebar-wrapper a:hover  {
+    background-color: #0066bb ;
+    color: white;
+
+    
+  }
+
+
+  #page-content-wrapper .logout a:hover{
+background-color: #0066bb;
+color: white;
+background: #0066bb;
+  }
+
+
+  
+
+
+
+  /* ...........media query.......... */
+
+  @media (max-width:768px) {
+    table {
+      
+    }
+    
+  }
+
+  
+  #sidebar-wrapper {
+    min-height: 100vh;
+    margin-left: -15rem;
+    -webkit-transition: margin 0.25s ease-out;
+    -moz-transition: margin 0.25s ease-out;
+    -o-transition: margin 0.25s ease-out;
+    transition: margin 0.25s ease-out;
+  }
+  
+  #sidebar-wrapper .sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+  }
+  
+  #sidebar-wrapper .list-group {
+    width: 15rem;
+  }
+  
+  #page-content-wrapper {
+    min-width: 100vw;
+  }
+  
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: 0;
+  }
+  
+  #menu-toggle {
+    cursor: pointer;
+  }
+  
+  .list-group-item {
+    border: none;
+    padding: 20px 30px;
+  }
+  
+  .list-group-item.active {
+    background-color: transparent;
+    color: var(--main-text-color);
+    font-weight: bold;
+    border: none;
+  }
+  
+  @media (min-width: 768px) {
+    #sidebar-wrapper {
+      margin-left: 0;
+    }
+  
+    #page-content-wrapper {
+      min-width: 0;
+      width: 100%;
+    }
+  
+    #wrapper.toggled #sidebar-wrapper {
+      margin-left: -15rem;
+    }
+  }
+
+
+
+
+
+  /* ........Data Table......... */
+
+  table {
+    text-align: center;
+
+  }
+
+  table .btn {
+    margin-top: -1px;
+  }
+

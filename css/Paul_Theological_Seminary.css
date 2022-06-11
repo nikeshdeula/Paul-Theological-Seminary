@@ -580,3 +580,59 @@ footer {
 
 
 
+
+
+
+
+
+
+
+
+/* ............gallery..................... */
+
+
+
+div.gallery {
+   
+    margin: 5px;
+    border: 1px solid #ccc;
+    justify-content: space-between;
+    display: inline-block;
+    width: 350px;
+    margin-top: 1rem;
+    margin-bottom: 5px;
+    
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  @media (max-width:1199px) {
+
+    div.gallery {
+        width: 100%;
+       
+    }
+
+  }
+
+
+  @media (max-width:768px) {
+
+    div.gallery {
+        width: 100%;
+       
+    }
+    
+  }

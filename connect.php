@@ -6,11 +6,11 @@ $con = mysqli_connect('localhost', 'root');
 
 $db = mysqli_select_db($con, 'paul_theological_seminary');
 
-if($con) {
-    echo "connected";
-}else {
-    echo "not connected";
-}
+// if($con) {
+//     echo "connected";
+// }else {
+//     echo "not connected";
+// }
 
 
 
@@ -30,7 +30,7 @@ if(isset($_POST['submit'])){
 
         }else {
             echo "login failed";
-            header('location:adminlogin.php');
+            header('location:login.php');
 
 
         }

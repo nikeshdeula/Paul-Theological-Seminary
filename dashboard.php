@@ -1,26 +1,30 @@
 <?php
-session_start();
+
+include 'connect.php';
+
+
 if(!isset($_SESSION['user'])){
     header('location:login.php');
-
 }
+
+
 
 ?>
 
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css_5/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
-    <link rel="stylesheet" href="./css/css_5/bootstrap.min.css">  
-    <link rel="stylesheet" href="./css/css_5/admin.css">
 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  <link rel="stylesheet" href="./css/css_5/bootstrap.min.css">  
+    <link rel="stylesheet" href="./css/css_5/admin.css">
 </head>
+
 <body>
 
 <div class="d-flex" id="wrapper">
@@ -69,11 +73,12 @@ if(!isset($_SESSION['user'])){
                     </ul>
                 </div>
             </nav>
+           
 
 
-<!-- ...................script...................... -->
+             <!-- ..............script.............. -->
 
-<script src="./js/js_5/jquery-3.6.0.js"></script>
+  <script src="./js/js_5/jquery-3.6.0.js"></script>
 <script src="./js/js_5/bootstrap.min.js"></script>
 
 <script>
@@ -84,7 +89,9 @@ if(!isset($_SESSION['user'])){
             el.classList.toggle("toggled");
         };
     </script>
- 
-
 </body>
+
+
+
 </html>
+

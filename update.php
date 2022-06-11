@@ -1,17 +1,21 @@
-<?php
-
+<?php 
 include 'connect.php';
 
-if(isset($_POST['submit'])) {
-     $name = $_POST['name'];
-    $email = $_POST['email'];
-    $mobile = $_POST['mobile'];
-    $message = $_POST['message'];
-     $q = " INSERT INTO `userinfo`(`name`, `email`, `mobile`, `message`) VALUES ('$name',  '$email', '$mobile', '$message')";
-    
-    $query = mysqli_query($con, $q);
+if(isset($_POST['submit'])){
 
-    header('location:contact.php');
+
+
+$id = $_GET['id'];
+$name = $_POST['name'];
+$email = $_POST['email'];
+$mobile = $_POST['mobile'];
+$message = $_POST['message'];
+$q = "UPDATE `userinfo` SET  id =$id, name='$name', email='$email', mobile='$mobile', message='$message' WHERE id =$id";
+
+$query = mysqli_query($con, $q);
+
+header('location:message.php');
+
 }
 
 ?>
@@ -127,14 +131,15 @@ if(isset($_POST['submit'])) {
         </div>
 
 <form  method="post" class="Contact_submit">
-            <h4>Send Message</h4>
+            <h4>Update Message</h4>
 <div class="container">
  <div class="submit_content">
     <div class="submit_content_1">
                 
                     <label for="name" class="form-label" ></label>
-                    <input type="text" class="form-control" placeholder="Name" name="name">
+                    <input type="text" class="form-control" placeholder="Name" name="name" >
                   
+
                     <label for="email" class="form-label"></label>
                     <input type="email" class="form-control" placeholder="Email" name="email">
                    
@@ -150,7 +155,7 @@ if(isset($_POST['submit'])) {
             
         </div>
     <div class="text-center">
-   <button type="submit" class="btn" name="submit">Send Message</button>
+   <button type="submit" class="btn" name="submit">Update</button>
    </div>
 
              
@@ -221,4 +226,3 @@ if(isset($_POST['submit'])) {
         <script src="./js/bootstrap.min.js"></script>
 </body>
 
-</html>
