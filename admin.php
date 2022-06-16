@@ -30,10 +30,9 @@ if(!isset($_SESSION['user'])){
             <div class="list-group list-group-flush my-3">
                 <a href="dashboard.php" class="list-group-item list-group-item-action active"><i
                         class="fa fa-tachometer me-2"></i>Dashboard</a>
-                <a href="projects.php" class="list-group-item list-group-item-action  fw-bold"><i
-                        class="fa fa-camera-retro me-2"></i>Gallery</a>
                 <a href="message.php" class="list-group-item list-group-item-action  fw-bold"><i
                         class="fa fa-envelope me-2"></i>Messages</a>
+                        
 
                 <a href="login.php" class="list-group-item list-group-item-action logout fw-bold"><i
                         class="fa fa-power-off me-2"></i>Logout</a>

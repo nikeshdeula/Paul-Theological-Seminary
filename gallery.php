@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Paul Theological Seminary</title>
+    <title>Gallery</title>
     <script src="https://kit.fontawesome.com/18a12ba8fd.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
         integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
@@ -31,6 +31,10 @@
 
 
 
+    <!-- .......navbar....... -->
+
+
+    
     <!-- .......navbar....... -->
 
 
@@ -65,16 +69,16 @@
                             <a class="dropdown-item" href="#">course iii</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        <a class="nav-link dropdown-toggle" href="news_and_events" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-expanded="false">
                             Blogs
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item"
                                 href="news_and_events.php">News and Events</a>
-                            <a class="dropdown-item" href="activities.php">Activities</a>
+                            <a class="dropdown-item" href="#">Activities</a>
                             <a class="dropdown-item" href="#">Videos</a>
-                            <a class="dropdown-item" href="#">Gallery</a>
+                            <a class="dropdown-item" href="gallery.php">Gallery</a>
                         </div>
                     </li>
                     <li class="nav-item contact_item">
@@ -92,26 +96,26 @@
 
 <div class="gallery">
    
-  <a target="_blank" href="./image/img 1.jpg">
-    <img src="./image/img 1.jpg" alt="Cinque Terre">
+  <a target="_blank" href="./image/img5.jpg">
+    <img src="./image/img5.jpg" alt="Cinque Terre">
   </a>
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="./image/img 1.jpg">
-    <img src="./image/img 1.jpg" alt="Forest">
+  <a target="_blank" href="./image/img6.jpg">
+    <img src="./image/img6.jpg" alt="Forest">
   </a>
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="./image/img 1.jpg">
-    <img src="./image/img 1.jpg" alt="Northern Lights">
+  <a target="_blank" href="./image/img7.jpg">
+    <img src="./image/img7.jpg" alt="Northern Lights">
   </a>
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="./image/img 1.jpg">
-    <img src="./image/img 1.jpg" alt="Mountains" >
+  <a target="_blank" href="./image/img4.jpg">
+    <img src="./image/img4.jpg" alt="Mountains" >
   </a>
  
   
@@ -120,10 +124,9 @@
 </section>
 
 
+ <!-- ...........footer............ -->
 
-    <!-- ...........footer............ -->
-
-    <footer class="footer">
+ <footer class="footer">
             <div class="container">
                 <div class="footer_content">
                     <div class="footer_1">
@@ -135,10 +138,10 @@
                     <div class="footer_2">
                         <h5>Quick Links</h5> <br>
                        <ul>
-                           <li><a href="#">About us</a></li>
-                           <li><a href="#">Blogs</a></li>
+                           <li><a href="about.php">About us</a></li>
+                           <li><a href="news_and_events.php">Blogs</a></li>
                            <li><a href="#">Course</a></li>
-                           <li><a href="#">Contact Us</a></li>
+                           <li><a href="contact.php">Contact Us</a></li>
                        </ul>
                     </div>
                     <div class="footer_3">

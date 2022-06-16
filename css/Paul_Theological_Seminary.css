@@ -91,6 +91,7 @@
 
 .navbar-nav .dropdown:hover .dropdown-menu {
     display: block;
+   
 }
 
 
@@ -105,6 +106,11 @@
     border: none;
     border-radius: 0px;
    
+}
+
+.dropdown-menu a:hover {
+    background-color: #0066bb;
+    color: white;
 }
 
 
@@ -123,6 +129,8 @@
 
 }
 
+
+
 .navbar-toggler {
     float: right;
 }
@@ -136,6 +144,22 @@
   
 
 
+}
+
+/* ..................carousel................... */
+
+@media (max-width:768px) {
+    .carousel-caption h3 {
+        font-size: 18px;
+        
+
+        
+    }
+
+    .carousel-caption {
+        margin-bottom: -50px;
+    }
+    
 }
 
 
@@ -154,10 +178,14 @@
 
 
 
-/* ...............................carousel......................... */
+/* ...............................course........................ */
 
 .course {
     padding-top: 2rem;
+}
+
+.course .card:hover {
+    transform: scale(1.01);
 }
 
 .course h3 {
@@ -172,6 +200,8 @@
 .btn {
     background-color: #0066bb;
     color: white;
+    width: 50%;
+   
 }
 
 
@@ -187,6 +217,37 @@
     margin-bottom: 45px;
 
 }
+.blogs .owl-carousel .card {
+    
+    margin-bottom: 10px;
+   
+   
+}
+
+.blogs .owl-carousel .card:hover {
+    transform: scale(1.01);
+    box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.05);
+    border: none;
+   
+}
+
+.blogs .btn {
+    width: 15%;
+}
+
+.blogs .paginate img{
+    width: 20px;
+
+}
+
+@media (max-width:768px) {
+    .blogs .btn {
+        width: 30%;
+       
+    }
+}
+
+
 
 
 
@@ -605,14 +666,17 @@ div.gallery {
   }
   
   div.gallery:hover {
-    border: 1px solid #777;
+    box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.1);
+    border: 0.2px solid rgba(0, 0, 0, 0.5) ;
+    transform: scale(1.03);
+
   }
   
   div.gallery img {
     width: 100%;
     height: auto;
   }
-  
+
   div.desc {
     padding: 15px;
     text-align: center;

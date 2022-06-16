@@ -67,16 +67,16 @@
                             <a class="dropdown-item" href="#">course iii</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        <a class="nav-link dropdown-toggle" href="news_and_events" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-expanded="false">
                             Blogs
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item"
                                 href="news_and_events.php">News and Events</a>
-                            <a class="dropdown-item" href="activities.php">Activities</a>
+                            <a class="dropdown-item" href="#">Activities</a>
                             <a class="dropdown-item" href="#">Videos</a>
-                            <a class="dropdown-item" href="#">Gallery</a>
+                            <a class="dropdown-item" href="gallery.php">Gallery</a>
                         </div>
                     </li>
                     <li class="nav-item contact_item">
@@ -170,10 +170,10 @@
                     <div class="footer_2">
                         <h5>Quick Links</h5> <br>
                        <ul>
-                           <li><a href="#">About us</a></li>
-                           <li><a href="#">Blogs</a></li>
+                           <li><a href="about.php">About us</a></li>
+                           <li><a href="news_and_events.php">Blogs</a></li>
                            <li><a href="#">Course</a></li>
-                           <li><a href="#">Contact Us</a></li>
+                           <li><a href="contact.php">Contact Us</a></li>
                        </ul>
                     </div>
                     <div class="footer_3">

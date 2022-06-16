@@ -65,14 +65,14 @@
                             <a class="dropdown-item" href="#">course iii</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        <a class="nav-link dropdown-toggle" href="news_and_events" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-expanded="false">
                             Blogs
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item"
                                 href="news_and_events.php">News and Events</a>
-                            <a class="dropdown-item" href="activities.php">Activities</a>
+                            <a class="dropdown-item" href="#">Activities</a>
                             <a class="dropdown-item" href="#">Videos</a>
                             <a class="dropdown-item" href="gallery.php">Gallery</a>
                         </div>
@@ -90,14 +90,26 @@
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="./image/img4.jpg" class="d-block w-100" alt="...">
+                    <img src="./image/img 4.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption text-primary">
+                    <h3>Matthew 9:38</h3> 
+                    <p>"Therefore pray the Lord of the harvest to send out laborers into His harvest.”</p>
+                 </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="./image/img7.jpg" class="d-block w-100" alt="...">
-                </div>
+                    <img src="./image/img 7.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption text-primary">
+                    <h3>Matthew 9:38</h3>
+                    <p>"Therefore pray the Lord of the harvest to send out laborers into His harvest.”</p>
+                 </div>
+                 </div>
+
                 <div class="carousel-item">
-                    <img src="./image/img6.jpg" class="d-block w-100" alt="...">
-                </div>
+                    <img src="./image/img 7.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption mt-2 text-primary">
+                    <h3>Matthew 9:38</h3>
+                    <p>"Therefore pray the Lord of the harvest to send out laborers into His harvest.”</p>
+                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls"
                 data-slide="prev">
@@ -153,7 +165,11 @@
                             <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione,
                                 praesentium?</p>
                         </div>
-                        <button class="btn">Read More</button>
+                        <div class="text-center">
+                        <a href="# " class="btn mb-3">Read More</a>
+
+                        </div>
+                        
                     </div>
 
                     <div class="card  border-0 shadow">
@@ -164,7 +180,9 @@
                                 possimus..
                             </p>
                         </div>
-                        <button class="btn">Read More</button>
+                        <div class="text-center">
+                        <a href="# " class="btn mb-3">Read More</a>
+                        </div>
                     </div>
 
                     <div class="card  border-0 shadow">
@@ -175,7 +193,9 @@
                                 soluta.
                             </p>
                         </div>
-                        <button class="btn">Read More</button>
+                        <div class="text-center">
+                        <a href="# " class="btn mb-3">Read More</a>
+                        </div>
                     </div>
 
                 </div>
@@ -189,7 +209,9 @@
                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia,
                                     neque.</p>
                             </div>
-                            <button class="btn">Read More</button>
+                            <div class="text-center">
+                        <a href="#" class="btn mb-3">Read More</a>
+                        </div>
                         </div>
 
                         <div class="card  border-0 shadow">
@@ -200,7 +222,9 @@
                                     Repellendus,
                                     laudantium.</p>
                             </div>
-                            <button class="btn">Read More</button>
+                            <div class="text-center">
+                        <a href="# " class="btn mb-3">Read More</a>
+                        </div>
                         </div>
 
                         <div class="card border-0 shadow">
@@ -210,13 +234,18 @@
                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem,
                                     aspernatur.</p>
                             </div>
-                            <button class="btn">Read More</button>
+                            <div class="text-center">
+                        <a href="#" class="btn mb-3">Read More</a>
+                        </div>
+                           
                         </div>
 
                     </div>
 
                 </div>
             </div>
+
+        
         </section>
 
         <!-- ...........Blogs........ -->
@@ -225,31 +254,40 @@
             <h3>Blogs</h3>
             <div class="container">
                 <div class="owl-carousel owl-theme">
-                    <div class="card border-0 shadow">
+                    <div class="card ">
                         <img src="./image/img 2.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">course 2</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem,
                                 aspernatur.</p>
                         </div>
-                        <button class="btn">Read More</button>
+                    
                     </div>
 
                 </div>
+                
             </div>
 
             <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls"
                 data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span> <i class="fa-solid fa-chevron-left"></i></span>
                 <span class="sr-only">Previous</span>
             </button>
             <button class="carousel-control-next" type="button" data-target="#carouselExampleControls"
                 data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="fa-solid fa-chevron-left" aria-hidden="true"><i class="fa fa-chevron-left" aria-hidden="true"></i></span>
                 <span class="sr-only">Next</span>
             </button>
+            <div class="text-center paginate">
+                       <img src="./image/double_arrow.png" alt="">
+                        </div>
 
+            <div class="text-center">
+                        <a href="news_and_events.php" class="btn mt-4">Read More</a>
+                        </div>
         </section>
+
+       
 
         <!-- ...........Get In Touch....... -->
 
@@ -272,14 +310,9 @@
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
 
-
-
-
                 </div>
 
-
             </div>
-
 
         </section>
 
@@ -300,10 +333,10 @@
                     <div class="footer_2">
                         <h5>Quick Links</h5> <br>
                        <ul>
-                           <li><a href="#">About us</a></li>
-                           <li><a href="#">Blogs</a></li>
+                           <li><a href="about.php">About us</a></li>
+                           <li><a href="news_and_events.php">Blogs</a></li>
                            <li><a href="#">Course</a></li>
-                           <li><a href="#">Contact Us</a></li>
+                           <li><a href="contact.php">Contact Us</a></li>
                        </ul>
                     </div>
                     <div class="footer_3">
