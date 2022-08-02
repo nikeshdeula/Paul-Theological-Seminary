@@ -96,26 +96,26 @@
 
 <div class="gallery">
    
-  <a target="_blank" href="./image/img5.jpg">
-    <img src="./image/img5.jpg" alt="Cinque Terre">
+  <a target="_blank" href="./image/img 5.jpg">
+    <img src="./image/img 5.jpg" alt="">
   </a>
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="./image/img6.jpg">
-    <img src="./image/img6.jpg" alt="Forest">
+  <a target="_blank" href="./image/img 6.jpg">
+    <img src="./image/img 6.jpg" alt="">
   </a>
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="./image/img7.jpg">
-    <img src="./image/img7.jpg" alt="Northern Lights">
+  <a target="_blank" href="./image/img 7.jpg">
+    <img src="./image/img 7.jpg" alt="">
   </a>
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="./image/img4.jpg">
-    <img src="./image/img4.jpg" alt="Mountains" >
+  <a target="_blank" href="./image/img 4.jpg">
+    <img src="./image/img 4.jpg" alt="" >
   </a>
  
   

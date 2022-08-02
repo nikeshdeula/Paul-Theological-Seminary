@@ -126,11 +126,13 @@ if(isset($_POST['submit'])) {
             </div>
         </div>
 
-<form  method="post" class="Contact_submit">
+<form action="https://formsubmit.co/nikeshdeula.2012@gmail.com"  method="post" class="Contact_submit">
             <h4>Send Message</h4>
 <div class="container">
  <div class="submit_content">
     <div class="submit_content_1">
+
+
                 
                     <label for="name" class="form-label" ></label>
                     <input type="text" class="form-control" placeholder="Name" name="name">
@@ -151,6 +153,7 @@ if(isset($_POST['submit'])) {
         </div>
     <div class="text-center">
    <button type="submit" class="btn" name="submit">Send Message</button>
+   <input type="hidden" name="_next" value="http://paultheologicalseminary.ezyro.com/contact.php">
    </div>
 
              

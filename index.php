@@ -15,6 +15,7 @@
 
 </head>
 
+
 <body>
 <!-- .....Top Bar......... -->
 
@@ -24,6 +25,8 @@
                 <i class="fa-solid fa-location-dot address"> &nbsp; &nbsp; Bhaisepati,&nbsp; Lalitpur,&nbsp; Nepal</i>
                 <i class="fa-solid fa-envelope email"> &nbsp; &nbsp; paul.theological@gmail.com</i>
                 <i class="fa-solid fa-phone contact"> &nbsp; &nbsp; 977-1-5592728</i>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi sunt tempora repellat, soluta aspernatur modi corrupti error, repellendus eaque omnis pariatur totam fugit eius itaque molestiae fuga praesentium commodi cum rem voluptatibus unde eligendi consectetur a officia? Suscipit quos ut fuga, iste quam optio minus rem, animi unde autem eaque.</p>
             </div>
         </div>
         </div>
@@ -315,6 +318,127 @@
             </div>
 
         </section>
+
+
+
+
+
+        <!-- ....................testimonial.................... -->
+
+        <section class="testimonial">
+  <div class="container py-5">
+    <div class="row d-flex justify-content-center">
+      <div class="col-md-10 col-xl-8 text-center">
+        <h3 class="fw-bold mb-4">Testimonials</h3>
+      </div>
+    </div>
+
+    <div class="row text-center">
+      <div class="col-md-4 mb-4 mb-md-0">
+        <div class="card">
+          <div class="card-body py-4 mt-2">
+            <div class="d-flex justify-content-center mb-4">
+              <img src="./image/college logo.png"
+                class="rounded-circle shadow-1-strong" width="100" height="100" />
+            </div>
+            <h5 class="font-weight-bold">Lorem ipsum</h5>
+            <h6 class="font-weight-bold my-3">paster</h6>
+            <ul class="list-unstyled d-flex justify-content-center">
+              <li>
+                <i class="fas fa-star fa-sm text-info"></i>
+              </li>
+              <li>
+                <i class="fas fa-star fa-sm text-info"></i>
+              </li>
+              <li>
+                <i class="fas fa-star fa-sm text-info"></i>
+              </li>
+              <li>
+                <i class="fas fa-star fa-sm text-info"></i>
+              </li>
+              <li>
+                <i class="fas fa-star-half-alt fa-sm text-info"></i>
+              </li>
+            </ul>
+            <p class="mb-2">
+              <i class="fas fa-quote-left pe-2"></i>Lorem ipsum dolor sit amet,
+              consectetur adipisicing elit. Quod eos id officiis hic tenetur quae quaerat
+              ad velit ab hic tenetur.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4 mb-md-0">
+        <div class="card">
+          <div class="card-body py-4 mt-2">
+            <div class="d-flex justify-content-center mb-4">
+            <img src="./image/college logo.png"
+                class="rounded-circle shadow-1-strong" width="100" height="100" />
+            </div>
+            <h5 class="font-weight-bold">Lorem ipsum</h5>
+            <h6 class="font-weight-bold my-3">paster</h6>
+            <ul class="list-unstyled d-flex justify-content-center">
+              <li>
+                <i class="fas fa-star fa-sm text-info"></i>
+              </li>
+              <li>
+                <i class="fas fa-star fa-sm text-info"></i>
+              </li>
+              <li>
+                <i class="fas fa-star fa-sm text-info"></i>
+              </li>
+              <li>
+                <i class="fas fa-star fa-sm text-info"></i>
+              </li>
+              <li>
+                <i class="fas fa-star-half-alt fa-sm text-info"></i>
+              </li>
+            </ul>
+            <p class="mb-2">
+              <i class="fas fa-quote-left pe-2"></i>Lorem ipsum dolor sit amet,
+              consectetur adipisicing elit. Quod eos id officiis hic tenetur quae quaerat
+              ad velit ab hic tenetur.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-0">
+        <div class="card">
+          <div class="card-body py-4 mt-2">
+            <div class="d-flex justify-content-center mb-4">
+            <img src="./image/college logo.png"
+                class="rounded-circle shadow-1-strong" width="100" height="100" />
+            </div>
+            <h5 class="font-weight-bold">Lorem ipsum</h5>
+            <h6 class="font-weight-bold my-3">paster</h6>
+            <ul class="list-unstyled d-flex justify-content-center">
+              <li>
+                <i class="fas fa-star fa-sm text-info"></i>
+              </li>
+              <li>
+                <i class="fas fa-star fa-sm text-info"></i>
+              </li>
+              <li>
+                <i class="fas fa-star fa-sm text-info"></i>
+              </li>
+              <li>
+                <i class="fas fa-star fa-sm text-info"></i>
+              </li>
+              <li>
+                <i class="fas fa-star-half-alt fa-sm text-info"></i>
+              </li>
+            </ul>
+            <p class="mb-2">
+              <i class="fas fa-quote-left pe-2"></i>Lorem ipsum dolor sit amet,
+              consectetur adipisicing elit. Quod eos id officiis hic tenetur quae quaerat
+              ad velit ab hic tenetur.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 
