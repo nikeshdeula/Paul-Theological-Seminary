@@ -26,7 +26,7 @@
                 <i class="fa-solid fa-envelope email"> &nbsp; &nbsp; paul.theological@gmail.com</i>
                 <i class="fa-solid fa-phone contact"> &nbsp; &nbsp; 977-1-5592728</i>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi sunt tempora repellat, soluta aspernatur modi corrupti error, repellendus eaque omnis pariatur totam fugit eius itaque molestiae fuga praesentium commodi cum rem voluptatibus unde eligendi consectetur a officia? Suscipit quos ut fuga, iste quam optio minus rem, animi unde autem eaque.</p>
+                
             </div>
         </div>
         </div>
